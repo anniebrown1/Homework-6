@@ -1,0 +1,3 @@
+This is test content for Homework 6 for Comp 141. 
+I am excited to set up my first shell script!
+
