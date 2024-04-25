@@ -4,3 +4,5 @@
 
 echo "Hello World!"
 
+jq -r '.breeds | .[] | .type' catfacts.json > breed_types.txt
+
