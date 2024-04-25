@@ -2,7 +2,5 @@
 
 #This is our first script.
 
-echo "Hello World!"
-
-jq -r '.breeds | .[] | .type' catfacts.json > breed_types.txt
+jq -r '.breeds | .[] | .type' catfacts.json
 
